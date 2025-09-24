@@ -1,0 +1,52 @@
+# Student Record Management System (CLI)
+
+## Project Overview
+
+This project implements a simple Command-Line Interface (CLI) based Student Record Management System using Java. It provides basic CRUD (Create, Read, Update, Delete) functionalities for managing student records, including their ID, name, and marks. This system is designed as a learning exercise to practice fundamental Java concepts, object-oriented programming, and data structure usage (specifically `ArrayList`).
+
+## Features
+
+*   **Add New Student:** Create a new student record with an auto-generated ID, name, and marks.
+*   **View All Students:** Display a list of all currently stored student records.
+*   **Update Student Record:** Modify the name and/or marks of an existing student using their ID.
+*   **Delete Student Record:** Remove a student record from the system using their ID.
+*   **Interactive Menu:** Easy-to-use command-line menu for navigating through operations.
+*   **Basic Input Validation:** Handles non-numeric input for IDs/marks and ensures marks are within a valid range (0-100).
+
+## Technologies Used
+
+*   **Language:** Java
+*   **Development Environment:** Any Java IDE (e.g., VS Code, IntelliJ IDEA Community Edition, Eclipse) or a simple text editor with a Java Development Kit (JDK) installed.
+
+## Getting Started
+
+### Prerequisites
+
+To run this project, you need to have the Java Development Kit (JDK) installed on your system. You can download it from the [official Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html) or use an open-source distribution like OpenJDK.
+
+### Installation and Setup
+
+1.  **Clone or Download the Repository:**
+    If this were in a repository, you'd clone it:
+    ```bash
+    git clone <repository-url>
+    cd student-management-system
+    ```
+    Since you've just created the files, simply save the `Student.java` and `StudentManagementSystem.java` files into a single directory on your computer.
+
+2.  **Compile the Java Code:**
+    Open your terminal or command prompt, navigate to the directory where you saved the `.java` files, and compile them using the Java compiler (`javac`):
+    ```bash
+    javac Student.java StudentManagementSystem.java
+    ```
+    This command will create `.class` files for both `Student` and `StudentManagementSystem`.
+
+3.  **Run the Application:**
+    Once compiled, you can run the application using the Java Virtual Machine (`java`):
+    ```bash
+    java StudentManagementSystem
+    ```
+
+## How to Use
+
+Upon running the application, you will be presented with a main menu:
